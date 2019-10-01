@@ -79,6 +79,8 @@ Dúvida: Essa página vem do facebook? Como funciona?
 - Checkbox gênero
 - Data de nascimento DD MM AAAA
 - Upload de Foto de Perfil
+- Campo Signo 
+- Campo Ascendente
 - Botão Continuar
 Obs: no tinder, é necessário colocar o telefone mesmo se fizer o cadastro com o facebook. Então o telefone já é dado antes de criar a conta.
 
@@ -115,6 +117,7 @@ Obs: no tinder, é necessário colocar o telefone mesmo se fizer o cadastro com 
 11.1. Aside:
 - Miniatura da foto de perfil
 - Título Meu perfil
+- Botão Assinatura Premium
 - Ajustes de Descoberta: distância, procurando por, faixa etária.
 - mais opções de ajustes como notificações de novo, idioma, contato
 - jurídico
@@ -122,25 +125,18 @@ Obs: no tinder, é necessário colocar o telefone mesmo se fizer o cadastro com 
 11.2. Section:
 - Card da pessoa sugerida (todos os detalhes do que vai ter no card já precisa nessa 1a sprint??)
 
-12. Sobre:
+12. Assinatura:
 
-12.1. Header:
-- Logo 
-- nomeDoSite
-- Nav Sobre
-- Nav Blog
-- Nav Entrar
+12.1. Header: Eu acho que, igual no formulário da nova conta, essa página de assinatura não precisaria de header e footer. 
 
 12.2. Main:
-- Banner
 - Título
 - Parágrafo
+- Campo Local de Nascimento
+- Campo Horário de nascimento
+- Card com botão Assine já
 
-12.3. Footer:
-- Ajuda
-- Contato
-
-13. Blog:
+13. Sobre:
 
 13.1. Header:
 - Logo 
@@ -151,13 +147,14 @@ Obs: no tinder, é necessário colocar o telefone mesmo se fizer o cadastro com 
 
 13.2. Main:
 - Banner
-- Não sei como fazer o blogggggggggui ;)
+- Título
+- Parágrafo
 
 13.3. Footer:
 - Ajuda
 - Contato
 
-14. Ajuda:
+14. Blog:
 
 14.1. Header:
 - Logo 
@@ -167,15 +164,14 @@ Obs: no tinder, é necessário colocar o telefone mesmo se fizer o cadastro com 
 - Nav Entrar
 
 14.2. Main:
-- Título
-- Campo para pesquisar ajuda
-- Assuntos mais buscados
+- Banner
+- Não sei como fazer o blogggggggggui ;)
 
 14.3. Footer:
 - Ajuda
 - Contato
 
-15. Contato:
+15. Ajuda:
 
 15.1. Header:
 - Logo 
@@ -186,9 +182,27 @@ Obs: no tinder, é necessário colocar o telefone mesmo se fizer o cadastro com 
 
 15.2. Main:
 - Título
+- Campo para pesquisar ajuda
+- Assuntos mais buscados
+
+15.3. Footer:
+- Ajuda
+- Contato
+
+16. Contato:
+
+16.1. Header:
+- Logo 
+- nomeDoSite
+- Nav Sobre
+- Nav Blog
+- Nav Entrar
+
+16.2. Main:
+- Título
 - Parágrago
 - Formulário de contato
 
-15.3. Footer:
+16.3. Footer:
 - Ajuda
 - Contato
