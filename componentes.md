@@ -19,7 +19,7 @@
 - Contato
 
 
-2. Login: pop up - mantém a página home atrás?
+2. Login: pop up 
 
 - Título 
 - Campo de e-mail
@@ -27,23 +27,20 @@
 - Botão Entrar
 - Esqueci meu e-mail
 - Esqueci minha senha
-- Ajuda ??
+- Ajuda 
 - Lembrar meu login
 
-3. Cadastro: pop up - mantém a página home atrás?
+3. Cadastro: pop up 
 
 - Mensagem de como deseja se cadastrar
 - Botão para entrar com Facebook
-- Botão para entrar com Instagram?? Ou deixar o instagram como informação do perfil??
-- Botão para entrar com Número de Celular. Tb necessário para verificar a conta se cadastrar usando o facebook.
+- Botão para entrar com Instagram
 - Problemas para se cadastrar?
 - Termos, Política de Privacidade e Cookies
 
-4. Facebook: pop up para se conectar
+4. Login no Facebook: pop up 
 
-Dúvida: Essa página vem do facebook? Como funciona?
-
-5. Telefone: pop up para se conectar
+5. Telefone para SMS: pop up 
 
 - Título para inserir o #
 - Caixa opções DDI
@@ -62,14 +59,7 @@ Dúvida: Essa página vem do facebook? Como funciona?
 
 7. Criando a conta:
 
-7.1. Header: poderia ser sem header?? Ficaria mais limpo.
-- Logo 
-- nomeDoSite
-- Nav Sobre
-- Nav Blog
-- Nav Entrar
-
-7.2. Main:
+7.1. Main:
 - Título
 - Campo Nome
 - Campo Endereço de email
@@ -82,11 +72,6 @@ Dúvida: Essa página vem do facebook? Como funciona?
 - Campo Signo 
 - Campo Ascendente
 - Botão Continuar
-Obs: no tinder, é necessário colocar o telefone mesmo se fizer o cadastro com o facebook. Então o telefone já é dado antes de criar a conta.
-
-7.3. Footer:
-- Ajuda
-- Contato
 
 8. Uso de localização: pop up
 
@@ -97,11 +82,11 @@ Obs: no tinder, é necessário colocar o telefone mesmo se fizer o cadastro com 
 
 9. Notificações: pop up
 
-- Parágrafo sobre notificações
+- Parágrafo sobre as notificações do site
 - Botão Não
 - Botão Ativar 
 
-10. Página Principal para ver os perfis sugeridos: sem header nem footer para ficar mais limpo??
+10. Página Principal para ver os perfis sugeridos: 
 
 10.1. Aside:
 - Miniatura da foto de perfil
@@ -127,9 +112,7 @@ Obs: no tinder, é necessário colocar o telefone mesmo se fizer o cadastro com 
 
 12. Assinatura:
 
-12.1. Header: Eu acho que, igual no formulário da nova conta, essa página de assinatura não precisaria de header e footer. 
-
-12.2. Main:
+12.1. Main:
 - Título
 - Parágrafo
 - Campo Local de Nascimento
