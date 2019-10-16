@@ -1,0 +1,27 @@
+/* Início do estilo para header */
+
+#headerNav {
+    background-color: #574973!important;
+}
+
+header nav div {
+    width: 50%;
+}
+
+li:hover {
+    background-color:#BAC2D9;
+}
+
+li a:hover {
+    color: black!important;
+    transition: all 0.1s ease-in-out; /* Queria uma transição mais bacana */
+}
+
+#login {
+    color: #F27C38;
+}
+
+header nav div ul li a {
+    margin-top: 0;
+    margin-bottom: 0;
+}
