@@ -1,5 +1,8 @@
-/* Início do estilo para header */
+body {
+    font-size: 1.2rem;
+}
 
+/* Início do estilo para header */
 #headerNav {
     background-color: #574973!important;
 }
@@ -8,20 +11,39 @@ header nav div {
     width: 50%;
 }
 
-li:hover {
-    background-color:#BAC2D9;
-}
-
-li a:hover {
+.transicaoNav:hover {
     color: black!important;
-    transition: all 0.1s ease-in-out; /* Queria uma transição mais bacana */
+    transition: all 0.1s ease-in-out;
+    background-color:#BAC2D9; /* queria uma transição com botão ocupando toda a altura da li */
 }
 
 #login {
     color: #F27C38;
 }
+/* Fim do estilo para header */
 
-header nav div ul li a {
-    margin-top: 0;
-    margin-bottom: 0;
+
+/* Início do estilo para main */
+.aside {
+    height: 100vh; 
+}
+
+#asideNav {
+    background-color: #57497360!important;
+    color: black;
+    height: 100px;
+}
+
+.menuSecundario {
+    width: 70%;
+}
+
+.menuSecundario a:hover{
+    color: black!important;
+    transition: all 0.1s ease-in-out;
+    background-color:rgb(221, 224, 234); /* queria uma transição com botão ocupando toda a altura da li */
+}
+
+#mensagens {
+    color: #F27C38;
 }
