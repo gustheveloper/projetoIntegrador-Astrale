@@ -1,6 +1,27 @@
-.bg-my{
-    background:  #988fa8;
+.bg-my {
+  background: #988fa8;
 }
-.text-my-dark{
-    color: #495361;
+.text-my-dark {
+  color: #495361;
 }
+* {
+  overflow: hidden;
+}
+.board {
+  overflow-y: scroll;
+  height: 150vh;
+}
+/* ::-webkit-scrollbar-track {
+  background-color: #f4f4f4;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #f4f4f4;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #f4f4f4;
+}
+::-webkit-scrollbar-thumb {
+  background: #dad7d7;
+} */
