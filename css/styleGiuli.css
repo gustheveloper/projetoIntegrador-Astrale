@@ -1,5 +1,6 @@
 
 /* Início do estilo para header */
+
 #headerNav {
     background-color: #574973!important;
 }
@@ -20,9 +21,11 @@ header nav div {
 /* Fim do estilo para header */
 
 
-/* Início do estilo para main */
+/* Início do estilo para main aside */
+
 .aside {
     height: 100vh; 
+    overflow: auto;
 }
 
 #asideNav {
@@ -39,4 +42,22 @@ header nav div {
 
 #mensagens {
     color: #F27C38;
+}
+
+.cardsConexoes {
+    overflow: hidden;
+}
+
+/* Fim do estilo para main aside */
+
+
+/* Início do estilo para main session */
+
+.chatConversa {
+    height: 70vh;
+    overflow: auto; /* testar */
+}
+
+.chatEscreve {
+    height: 30vh;
 }
