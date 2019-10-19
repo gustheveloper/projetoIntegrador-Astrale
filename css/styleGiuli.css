@@ -1,6 +1,3 @@
-body {
-    font-size: 1.2rem;
-}
 
 /* Início do estilo para header */
 #headerNav {
@@ -32,10 +29,6 @@ header nav div {
     background-color: #57497360!important;
     color: black;
     height: 100px;
-}
-
-.menuSecundario {
-    width: 70%;
 }
 
 .menuSecundario a:hover{
