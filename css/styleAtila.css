@@ -1,0 +1,19 @@
+footer {
+    background-color: #574973!important;
+    height: 6vh;
+    color: aliceblue;
+}
+
+#novaConta-main{
+    height: 88vh;
+}
+
+#novaConta-main label{
+    font-size: 30px;
+    color: rgb(78, 78, 78);
+}
+
+#novaConta-main h1{
+    color: rgb(78, 78, 78);
+}
+
