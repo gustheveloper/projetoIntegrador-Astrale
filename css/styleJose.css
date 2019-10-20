@@ -4,6 +4,17 @@
 .text-my-dark {
   color: #495361;
 }
+.photos {
+  height: 60vh;
+  background: url("../image/fotos.PNG");
+  background-position: center;
+  background-size: cover;
+}
+
+/* .text-my-light {
+}
+.text-my {
+} */
 * {
   overflow: hidden;
 }
