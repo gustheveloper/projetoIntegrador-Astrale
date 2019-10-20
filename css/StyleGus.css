@@ -1,0 +1,75 @@
+
+/* Início do estilo para header */
+
+#headerNav {
+    background-color: #574973!important;
+}
+
+header nav div {
+    width: 50%;
+}
+
+.transicaoNav:hover {
+    color: black!important;
+    transition: all 0.1s ease-in-out;
+    background-color:#BAC2D9; /* queria uma transição com botão ocupando toda a altura da li */
+}
+
+#login {
+    color: #F27C38;
+}
+
+/* Iniciando CSS da área do blog */
+
+.blogArea{
+  width: 100vw!important;
+  margin: 0px;
+  height: 20vh;
+  font-family: serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #392e47;
+  font-size: 36px;
+  background-color: gray;
+
+}
+/* Iniciando CSS dos cards de posts */
+
+.card{
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+}
+
+.posts{
+  display: flex;
+  justify-content: space-around;
+  background-color: #d9d1d0;
+  margin-top: 10px;
+}
+
+/* Iniciando CSS pra página dos posts */
+div img{
+  height: 50vh;
+  width: 30vw;
+}
+
+.imagem{
+
+}
+
+.text-post{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+footer {
+    background-color: #574973!important;
+    height: 6vh;
+    color: aliceblue;
+}
