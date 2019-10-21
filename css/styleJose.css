@@ -10,11 +10,19 @@
   background-position: center;
   background-size: cover;
 }
-
-/* .text-my-light {
+.buttons {
+  height: 15vh;
 }
-.text-my {
-} */
+.box {
+  height: 80px;
+  width: 80px;
+}
+.box:nth-child(1) {
+  background: #ff4949;
+}
+.box:nth-child(2) {
+  background: #13ce66;
+}
 * {
   overflow: hidden;
 }
@@ -22,17 +30,3 @@
   overflow-y: scroll;
   height: 150vh;
 }
-/* ::-webkit-scrollbar-track {
-  background-color: #f4f4f4;
-}
-::-webkit-scrollbar {
-  width: 6px;
-  background: #f4f4f4;
-}
-::-webkit-scrollbar {
-  width: 6px;
-  background: #f4f4f4;
-}
-::-webkit-scrollbar-thumb {
-  background: #dad7d7;
-} */
