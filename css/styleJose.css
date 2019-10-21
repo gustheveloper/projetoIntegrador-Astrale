@@ -23,6 +23,12 @@
 .box:nth-child(2) {
   background: #13ce66;
 }
+.box:nth-child(3) {
+  background: #ffc82c;
+}
+.box {
+  cursor: pointer;
+}
 * {
   overflow: hidden;
 }
@@ -30,3 +36,4 @@
   overflow-y: scroll;
   height: 150vh;
 }
+/* conexoes premium */
