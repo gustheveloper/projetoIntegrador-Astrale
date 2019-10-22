@@ -1,11 +1,8 @@
-.bg-my {
-  background: #988fa8;
-}
-.text-my-dark {
-  color: #495361;
+.color-orange {
+  color: #f27c38;
 }
 .photos {
-  height: 60vh;
+  height: 53vh;
   background: url("../image/fotos.PNG");
   background-position: center;
   background-size: cover;
