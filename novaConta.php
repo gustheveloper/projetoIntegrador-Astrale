@@ -13,36 +13,8 @@
     <title>Nova Conta</title>
 </head>
 <body>
-        <header class="border-bottom">
-                <!-- Logo e Nome -->
-            <nav id="headerNav" class="navbar navbar-light bg-light">
-                <a class="navbar-brand" href="">
-                    <img src=" " width="30" height="30" class="d-inline-block align-top" alt="">
-                    Astrale <!-- Gostaria de aumentar a fonte mas o logo está mudando de lugar. Como fazer o logo com fundo transparente?? -->
-                </a>
-                <!-- Navegação -->
-                <div>   
-                    <ul class="nav justify-content-between">
-                        <li class="nav-item">
-                            <a class="nav-link text-white transicaoNav" href="blog.html" target="_blank">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white transicaoNav" href="sobre.html" target="_blank">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white transicaoNav" href="ajuda.html" target="_blank">Ajuda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white transicaoNav" href="contato.html" target="_blank">Contato</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="login" class="nav-link transicaoNav" href="login.html" target="_blank">Login</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        
+        <?php include_once("header.html"); ?>
+                
         <main id="novaConta-main" class="container d-flex justify-content-center align-items-center">
             <form action="">
 
@@ -54,11 +26,11 @@
             
                 <div class="form-group col-md-6">
                 <label>Nome</label>
-                <input type="text" class="form-control form-control-lg" name="" id="inputName" placeholder="Nome">
+                <input type="text" class="form-control " name="" id="inputName" placeholder="Nome">
                 </div>
                 <div class="form-group col-md-6">
                         <label for="">Gênero</label>
-                        <select class="form-control form-control-lg" name="genero">
+                        <select class="form-control" name="genero">
                             <option value="">Selecione...</option>
                             <option value="masculino">Masculino</option>
                             <option value="feminino">Feminino</option>
@@ -66,22 +38,22 @@
                 </div>
                 <div class="form-group col-md-6">
                         <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control form-control-lg" id="inputEmail4" placeholder="Email">
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                 </div>
                 <div class="form-group col-md-6">
                         <label>Data de Nascimento</label>
-                        <input type="date" class="form-control form-control-lg" id="inputDate" placeholder="Data de nascimento">
+                        <input type="date" class="form-control" id="inputDate" placeholder="Data de nascimento">
                 </div>
                 <div class="form-group col-md-6">
                         <label>Senha</label>
-                        <input type="password" class="form-control form-control-lg" id="inputPassword" placeholder="Senha">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
                         <small id="passwordHelpInline" class="text-muted">
                                 Deve ter entre 8 e 20 caracteres.
                         </small>
                 </div>
                 <div class="form-group col-md-6">
                         <label for="">Signo</label>    
-                        <select class="form-control form-control-lg" name="signo">
+                        <select class="form-control" name="signo">
                             <option value="">Selecione...</option>
                             <option value="aquario">Aquário</option>
                             <option value="peixes">Peixes</option>
@@ -99,14 +71,14 @@
                     </div>
                 <div class="form-group col-md-6">
                 <label>Corfirme a Senha</label>
-                        <input type="password" class="form-control form-control-lg" id="inputPassword" placeholder="Confirme a senha">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Confirme a senha">
                         <small id="passwordHelpInline" class="text-muted">
                                 Deve ter entre 8 e 20 caracteres.
                         </small>
                 </div>
                 <div class="form-group col-md-6">
                         <label for="">Ascendente</label>    
-                        <select class="form-control form-control-lg" name="ascendente">
+                        <select class="form-control" name="ascendente">
                             <option value="">Selecione...</option>
                             <option value="lua">Lua</option>
                             <option value="sol">Sol</option>
@@ -114,9 +86,14 @@
                             <option value="mar">Mar</option>
                         </select>
                     </div>    
-                <div class="form-group col-md-6">
+                <div class="form-group">
                         <label>Foto</label>
-                        <input type="file" class="form-control form-control-lg" id="inputPicture">
+                        <div class="input-group mb-3">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                            <label class="custom-file-label" for="inputGroupFile01"></label>
+                        </div>
+                        </div>
                 </div>
             </div>
         </form>
