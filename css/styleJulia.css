@@ -1,13 +1,19 @@
-.bg-link {background-color: #988fa8;
-
+.bg-link {
+  background-color: #988fa8;
 }
 
 .text-my-dark {
-    color: #497361; 
+  color: #497361;
 }
 .fotos {
-    height: 60vh;
-    background:url("../image/fotos-perfil.jpeg");
-    background-position: center;
-    background-size: cover;
+  height: 53vh;
+  background: url("../image/fotos-perfil.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+body {
+  overflow: hidden;
+}
+.margin-me {
+  margin-bottom: 8rem;
 }

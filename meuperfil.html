@@ -1,52 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styleJulia.css">
-    <title> PERFIL
-    </title>
-</head>
-<body class="d-flex">
-    <aside class = "col-lg-4 col-md-4"> 
-        <!-- inicio do menu -->
-        <section class="row p-2 align-items-center justify-content-around bg-link">
-            <img src="https://via.placeholder.com/75" alt="" class="rounded-circle">
-            <nav>
-                <ul class="nav">
-                    <li class="nav-item"><a href="#" class="nav-link text-my-dark">Meu Perfil</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-my-dark">Conexões</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-my-dark">Mensagens</a></li>
-                </ul>
-            </nav>
-        </section>
-        <!-- término do menu -->
-        <!-- inicio do menu lateral  -->
-        <section class="row"></section>
-        <!-- término do menu lateral  -->
-    </aside>
-    <!-- començando o outro lado -->
-    <main class="col-lg-8 col-md-8">
-        <section class="row about-dash justify-content-around mt-3">
-            <div class="col-lg-8 d-flex flex-column justify-content-center">
-                <h3 class="text-center">Nome, Idade</h3>
-                <p class="text-secundary text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eveniet, officia a nobis non, mollitia minima doloribus maxime suscipit</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styleJulia.css" />
+    <link rel="stylesheet" href="css/styleGiuli.css" />
+    <title>PERFIL</title>
+  </head>
+  <body>
+    <header class="border-bottom">
+      <!-- Logo e Nome -->
+      <nav id="header" class="navbar navbar-light bg-light">
+        <a id="nomeDoSite" class="navbar-brand text-white" href="index.html">
+          <img
+            src="image/imagemLogo.png"
+            width="35"
+            height="35"
+            class="d-inline-block align-top"
+            alt=""
+          />
+          Astrale
+        </a>
+        <!-- Navegação -->
+        <div id="headerMenu">
+          <ul class="nav justify-content-between">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="blog.php" target="_blank"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="sobre.html" target="_blank"
+                >Sobre</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="ajuda.html" target="_blank"
+                >Ajuda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contato.html" target="_blank"
+                >Contato</a
+              >
+            </li>
+            <li class="nav-item">
+              <a id="login" class="nav-link" href="login.html" target="_blank"
+                >Olá, Fulanx!</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="d-flex">
+      <div class="col-lg-4 col-md-4 pl-0 pr-0">
+        <aside class="border-right bg-light">
+          <!-- menu aside -->
+          <nav id="menuSecundario" class="navbar navbar-light bg-light">
+            <img
+              src="image/fotoMiniatura.png"
+              width="75"
+              height="75"
+              class="d-inline-block align-top rounded-circle"
+              alt=""
+            />
+            <div>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a
+                    id="mensagens"
+                    class="nav-link mensagens"
+                    href="meuPerfil.html"
+                    target="_blank"
+                    >Meu Perfil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white"
+                    href="conexoes.html"
+                    target="_blank"
+                    >Conexões</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white "
+                    href="mensagens.html"
+                    target="_blank"
+                    >Mensagens</a
+                  >
+                </li>
+              </ul>
             </div>
-            <div class="col-lg-2 col-md-2">
-                <img src="https://via.placeholder.com/130" alt="" class="rounded-circle">
-            </div>
-        </section>
-        <section class="row fotos mt-3">
-                <div class="row">           
-                </div>
-                <div class="row"></div>
-            </section>
-        <section class="row buttons justify-content-end align-items-center mt-2">
-                <a href="#"> <img src="image/botãodireita.png" alt=""></a>
-                </section>
+          </nav>
 
+          <!-- editar perfil-->
+          <section class="cardsConexoes"></section>
+        </aside>
+      </div>
+      <!-- començando o outro lado -->
+      <section class="col-lg-8 col-md-8">
+        <section class="row about-dash justify-content-around mt-3">
+          <div class="col-lg-8 d-flex flex-column justify-content-center">
+            <h3 class="text-center">Nome, Idade</h3>
+            <p class="text-secundary text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque eveniet, officia a nobis non, mollitia minima doloribus
+              maxime suscipit
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-2">
+            <img
+              src="https://via.placeholder.com/130"
+              alt=""
+              class="rounded-circle"
+            />
+          </div>
+        </section>
+        <section class="row fotos mt-3  mr-3 ml-3 mt-3"></section>
+        <section
+          class="row buttons justify-content-end align-items-center mt-2"
+        >
+          <a href="#"> <img src="image/botãodireita.png" alt=""/></a>
+        </section>
+      </section>
     </main>
-</body>
+  </body>
 </html>
