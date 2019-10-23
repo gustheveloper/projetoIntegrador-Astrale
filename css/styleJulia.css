@@ -17,3 +17,15 @@ body {
 .margin-me {
   margin-bottom: 12rem;
 }
+.truque{
+  margin: o auto;
+}
+.btn-premium {
+  width: 160px;
+  padding: 12px 0;
+  background: #eb7c37;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 50px;
+}
