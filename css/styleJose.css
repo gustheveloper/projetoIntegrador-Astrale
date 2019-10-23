@@ -2,7 +2,7 @@
   color: #f27c38;
 }
 .photos {
-  height: 53vh;
+  height: 48vh;
   background: url("../image/fotos.PNG");
   background-position: center;
   background-size: cover;
@@ -13,6 +13,9 @@
 .box {
   height: 80px;
   width: 80px;
+}
+.none{
+  display: none;
 }
 .box:nth-child(1) {
   background: #ff4949;
