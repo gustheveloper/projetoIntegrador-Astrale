@@ -12,18 +12,18 @@
     <link href="css/styleAtila.css" rel="stylesheet">
     <title>Nova Conta</title>
 </head>
-<body id="novaConta-body" class="container-fluid">
+<body id="novaConta-body" class="">
         <!-- HEADER -->   
         <?php include_once("header.html"); ?>
                 
         <!-- MAIN -->
-        <main id="novaConta-main" class="container d-flex justify-content-center align-items-center">
+        <main id="novaConta-main" class="d-flex justify-content-center align-items-center">
         
         <!-- FORMULÁRIO DE CADASTRO DE NOVA CONTA -->
         <form id="novaConta-form" action="">
             <div class="form-row">    
             <div class="d-flex justify-content-center col-md-12">   
-                <h1>CRIE SUA CONTA</h1>
+                <h2>CRIE SUA CONTA</h2>
             </div>
                 <div class="form-group col-md-6">
                     <label>Nome</label>

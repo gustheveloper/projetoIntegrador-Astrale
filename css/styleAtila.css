@@ -1,4 +1,4 @@
-/* reset de margens */
+
 * {
     font-family: Arial, Helvetica, sans-serif
     margin: 0;
@@ -9,21 +9,21 @@
 
 footer {
     height: 10vh;
-    background-color: #574973!important;
+    background-color: #2c2740;
     color: aliceblue;
 }
 
 .home-h1{
     color: aliceblue;
-    font-size: 500%;
+    font-size: 300%;
     align-self: center;
-    text-shadow: 1px 1px black;
+    /* text-shadow: 1px 1px black; */
 }
 
 .home-p{
     color:aliceblue;
     font-size: 150%;
-    text-shadow: 1px 1px black;
+    /* text-shadow: 1px 1px black; */
 }
 
 #banner-images{
@@ -39,8 +39,8 @@ footer {
 
 .txt-fixed {
     position:absolute;
-    top: 35%;
-    left:20%;    
+    top:35%;
+    left:10%;    
 }
 
 #home-btn-cadastrar{
@@ -66,7 +66,7 @@ footer {
   /*PÁGINA TESTE DE INDEX */
 
   #indexTeste-body{
-      max-width: 1180px;
+      max-width: auto;
       max-height: auto;
   }
 
@@ -76,6 +76,10 @@ footer {
   }
 
   #indexTeste-main{
+      background-image: url('http://localhost/projetoIntegrador/image/teste1.jpg');
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
       height: 80vh;
   }
 
@@ -97,6 +101,7 @@ footer {
 
 #novaConta-main {
     height: 80vh;
+    margin-top: 10px;
 }
 
 #novaConta-form {
@@ -105,7 +110,7 @@ footer {
   }
 
 #novaConta-main label{
-    font-size: 30px;
+    font-size: 100%;
     color: rgb(78, 78, 78);
 }
 

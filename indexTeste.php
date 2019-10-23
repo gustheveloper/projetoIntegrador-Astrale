@@ -13,7 +13,7 @@
     <link href="css/styleAtila.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body id="indexTeste-body" class="container-fluid">
+<body id="indexTeste-body" class="">
     
     <!-- HEADER --> 
     <div id="indexTeste-header">
@@ -23,8 +23,7 @@
      <!--MAIN -->
     <div id="indexTeste-main" class="d-flex justify-content-center align-items-center border-bottom">
         <main>
-        <img id="indexTeste-img" src="image/teste1.jpg" alt="Tela Principal">
-        <div class="container d-flex flex-column txt-fixed">
+        <div class="container d-flex align-items-center flex-column">
                 <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
                 <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis. Sunt, voluptates. Voluptates assumenda id a magni, vero totam, magnam ea quia tenetur nostrum sed, similique perferendis eius!</p>  
                 <a id="home-btn-cadastrar" class="" href="novaConta.php" role="button"><h3>CADASTRE-SE</h3></a>  
