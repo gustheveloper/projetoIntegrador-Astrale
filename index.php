@@ -14,32 +14,32 @@
     <title>Astrale</title>
 </head>
 <body>
-    <main id="home-main" class="">
     <?php include_once("header.html"); ?>
-    <div class="border-bottom">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <main id="home-main" class="">
+    <div >
+    <div id="carouselExampleControls" class="carousel slide d-flex justify-content-center align-items-center" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img id="banner-images" class="d-block w-100" src="image/teste1.jpg" alt="Primeiro Slide">
-            <div class="container d-flex flex-column txt-fixed">
+            <img id="banner-images" class="" src="image/teste1.jpg" alt="Primeiro Slide">
+            <div id="home-texto" class="container d-flex flex-column txt-fixed">
                 <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
-                <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis. Sunt, voluptates. Voluptates assumenda id a magni, vero totam, magnam ea quia tenetur nostrum sed, similique perferendis eius!</p>  
+                <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>  
                 <a id="home-btn-cadastrar" class="" href="novaConta.php" role="button"><h3>CADASTRE-SE</h3></a>  
             </div>
           </div>
           <div class="carousel-item">
             <img id="banner-images" class="d-block w-100" src="image/teste2.jpg" alt="Segundo Slide">
-            <div class="container d-flex flex-column txt-fixed">
+            <div id="home-texto" class="container d-flex flex-column txt-fixed">
                 <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
-                <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis. Sunt, voluptates. Voluptates assumenda id a magni, vero totam, magnam ea quia tenetur nostrum sed, similique perferendis eius!</p>
-                <a id="home-btn-cadastrar" class="" href="novaConta.php" role="button"><h3>CADASTRE-SE</h3></a>
+                <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>
+                <a id="home-btn-cadastrar" class="d-flex justify-content-center align-items-center" href="novaConta.php" role="button"><h3>CADASTRE-SE</h3></a>
             </div>
           </div>
           <div class="carousel-item">
             <img id="banner-images" class="d-block w-100" src="image/bannerHome.png" alt="Terceiro Slide">
-            <div class="container d-flex align flex-column txt-fixed">
+            <div id="home-texto" class="container d-flex align flex-column txt-fixed">
                 <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
-                <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis. Sunt, voluptates. Voluptates assumenda id a magni, vero totam, magnam ea quia tenetur nostrum sed, similique perferendis eius!</p>
+                <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>
                 <a id="home-btn-cadastrar" class="" href="novaConta.php" role="button"><h3>CADASTRE-SE</h3></a>
             </div>            
           </div>
@@ -54,7 +54,6 @@
         </a>
       </div>
     </div>
-    <?php include_once("footer.php"); ?>
 </main>
 </body>
 </html>

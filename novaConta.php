@@ -22,14 +22,14 @@
         <!-- FORMULÁRIO DE CADASTRO DE NOVA CONTA -->
         <form id="novaConta-form" action="">
             <div class="form-row">    
-            <div class="d-flex justify-content-center col-md-12">   
+            <div class="d-flex justify-content-center col-lg-12">   
                 <h2>CRIE SUA CONTA</h2>
             </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-lg-6">
                     <label>Nome</label>
                     <input type="text" class="form-control " name="" id="inputName" placeholder="Nome">
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-lg-6">
                     <label for="">Gênero</label>
                     <select class="form-control" name="genero">
                         <option value="">Selecione...</option>
@@ -37,22 +37,22 @@
                         <option value="feminino">Feminino</option>
                     </select>
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-lg-6">
                     <label for="inputEmail4">Email</label>
                     <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-lg-6">
                     <label>Data de Nascimento</label>
                     <input type="date" class="form-control" id="inputDate" placeholder="Data de nascimento">
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-lg-6">
                     <label>Senha</label>
                     <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
                     <small id="passwordHelpInline" class="text-muted">
                         Deve ter entre 8 e 20 caracteres.
                     </small>
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-lg-6">
                     <label for="">Signo</label>    
                     <select class="form-control" name="signo">
                         <option value="">Selecione...</option>
@@ -70,14 +70,14 @@
                         <option value="capricornio">Capricórnio</option>
                     </select>
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-lg-6">
                 <label>Corfirme a Senha</label>
                     <input type="password" class="form-control" id="inputPassword" placeholder="Confirme a senha">
                     <small id="passwordHelpInline" class="text-muted">
                             Deve ter entre 8 e 20 caracteres.
                     </small>
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-lg-6">
                     <label for="">Ascendente</label>    
                         <select class="form-control" name="ascendente">
                         <option value="">Selecione...</option>
@@ -87,17 +87,17 @@
                         <option value="mar">Mar</option>
                     </select>
                 </div>    
-                <div class="form-group col-md-6">
+                <div class="form-group col-lg-6">
                     <label>Foto</label>
-                    <div class="input-group mb-3">
+                    <div class="input-group lg-3">
                     <div class="custom-file">
                         <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
                         <label class="custom-file-label" for="inputGroupFile01"></label>
                     </div>
                     </div>
                 </div>
-                <div class="form-group col-md-6 d-flex justify-content-center align-items-center">
-                    <a id="home-btn-cadastrar" class="d-flex justify-content-center align-items-center w-70" href="novaConta.php" role="button"><h3>Continuar</h3></a>
+                <div class="form-group col-lg-6 d-flex justify-content-center align-items-center">
+                    <a id="home-btn-cadastrar" class="d-flex justify-content-center align-items-center" href="novaConta.php" role="button"><h3>Continuar</h3></a>
                 </div>
             </div>
             

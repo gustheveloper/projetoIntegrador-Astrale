@@ -32,8 +32,6 @@
     </div>
 
     <!-- FOOTER -->
-    <div id="indexTeste-footer">
-    <?php include_once("footer.php"); ?>
-    </div>
+
 </body>
 </html>

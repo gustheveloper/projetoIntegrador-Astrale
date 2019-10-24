@@ -26,11 +26,6 @@ footer {
     /* text-shadow: 1px 1px black; */
 }
 
-#banner-images{
-    opacity: 0.9; 
-    height: 150%;
-}
-
 /* #home-main{
     max-width: 63vw;
 } */
@@ -46,7 +41,7 @@ footer {
 #home-btn-cadastrar{
     text-align: center;
     color: aliceblue;
-    padding: 0.5%;
+    padding: 0.8%;
     width: 250px;
     height: 60px;
     background-color: #f27C38;
@@ -80,7 +75,7 @@ footer {
       background-position: bottom;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 80vh;
+      height: 90vh;
   }
 
   #indexTeste-footer{
@@ -94,12 +89,14 @@ footer {
   
   /* NOVA CONTA CSS */
 
-#novaConta-body{
+/* #novaConta-body{
     max-width: 1180px;
     max-height: auto;
-} 
+}  */
 
 #novaConta-main {
+    width: 100vw;
+    max-width: 100%;
     height: 80vh;
     margin-top: 10px;
 }
@@ -110,10 +107,31 @@ footer {
   }
 
 #novaConta-main label{
-    font-size: 100%;
+    font-weight: bold;
+    font-size: larger;
     color: rgb(78, 78, 78);
 }
 
 #novaConta-main h1{
     color: rgb(78, 78, 78);
+}
+
+#home-main{
+    height: 50vh;
+}
+
+#carouselExampleControls{
+    height: 89.9vh;
+    margin-top: 1px;
+}
+
+#banner-images{
+    height: 90vh;
+    width: 100vw;
+    filter: brightness(50%);
+}
+
+#home-texto{
+    width: 70%;
+    font-size: x-large;
 }
