@@ -18,12 +18,7 @@
     <header class="border-bottom">
       <!-- Logo e Nome -->
       <nav id="header" class="navbar navbar-light bg-light">
-        <a
-          id="nomeDoSite"
-          class="navbar-brand "
-          style="color: #F27C38"
-          href="index.html"
-        >
+        <a id="nomeDoSite" class="navbar-brand text-white" href="index.html">
           <img
             src="image/imagemLogo.png"
             width="35"
@@ -31,7 +26,7 @@
             class="d-inline-block align-top"
             alt=""
           />
-          AstralePremium
+          Astrale
         </a>
         <!-- Navegação -->
         <div id="headerMenu">
@@ -81,8 +76,8 @@
               <ul class="nav">
                 <li class="nav-item">
                   <a
-                    class="nav-link mensagens"
                     id="mensagens"
+                    class="nav-link mensagens"
                     href="meuPerfil.html"
                     target="_blank"
                     >Meu Perfil</a
@@ -98,7 +93,7 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link text-white"
+                    class="nav-link text-white "
                     href="mensagens.html"
                     target="_blank"
                     >Mensagens</a
@@ -108,13 +103,13 @@
             </div>
           </nav>
 
-          <!-- editar perfil -->
+          <!-- editar perfil-->
           <section class="cardsConexoes">
-            <section class="collumn">
+            <section class="collumn p-3">
               <h5 class="text-color mt-2">Configurações da Conta</h5>
               <form>
                 <div class="col">
-                  Email
+                  <span>Email</span>
                   <input
                     type="text"
                     class="form-control"
@@ -122,15 +117,18 @@
                   />
                 </div>
                 <div class="col">
-                  Celular
+                  <span>Celular</span>
                   <input
                     type="text"
                     class="form-control"
                     placeholder="011 912345678"
                   />
                 </div>
-                <h5 class="text-color mt-2">Ajustes de Descoberta</h5>
-                <label for="customRange2">Distância Máxima</label>
+                <h5 class="text-color mt-3">Ajustes de Descoberta</h5>
+                <div class="row justify-content-between perfil-padding">
+                  <label for="customRange2 ml-3">Distância Máxima</label>
+                  <label class="text-color ">25Km</label>
+                </div>
                 <input
                   type="range"
                   class="custom-range"
@@ -138,7 +136,10 @@
                   max="10km"
                   id="customRange2"
                 />
-                <label for="customRange2">Faixa Etária</label>
+                <div class="row justify-content-between perfil-padding">
+                  <label for="customRange2">Faixa Etária</label>
+                  <label class="text-color ">25</label>
+                </div>
                 <input
                   type="range"
                   class="custom-range"
@@ -146,28 +147,29 @@
                   max="90"
                   id="customRange2"
                 />
+
+                <select class="custom-select">
+                  <option selected>Procurando por Gênero</option>
+                  <option value="1">Feminino</option>
+                  <option value="2">Masculino</option>
+                  <option value="3">Ambos</option>
+                </select>
+                <select class="custom-select">
+                  <option selected>Procurando por Signo</option>
+                  <option value="1">Aries</option>
+                  <option value="2">Touro</option>
+                  <option value="3">Gêmeos</option>
+                  <option value="4">Câncer</option>
+                  <option value="5">Leão</option>
+                  <option value="6">Virgem</option>
+                  <option value="7">Libra</option>
+                  <option value="8">Escorpião</option>
+                  <option value="9">Sagitário</option>
+                  <option value="10">Capricórnio</option>
+                  <option value="11">Aquário</option>
+                  <option value="12">Peixes</option>
+                </select>
               </form>
-              <select class="custom-select">
-                <option selected>Procurando por Gênero</option>
-                <option value="1">Feminino</option>
-                <option value="2">Masculino</option>
-                <option value="3">Ambos</option>
-              </select>
-              <select class="custom-select">
-                <option selected>Procurando por Signo</option>
-                <option value="1">Aries</option>
-                <option value="2">Touro</option>
-                <option value="3">Gêmeos</option>
-                <option value="4">Câncer</option>
-                <option value="5">Leão</option>
-                <option value="6">Virgem</option>
-                <option value="7">Libra</option>
-                <option value="8">Escorpião</option>
-                <option value="9">Sagitário</option>
-                <option value="10">Capricórnio</option>
-                <option value="11">Aquário</option>
-                <option value="12">Peixes</option>
-              </select>
               <h5 class="text-color mt-2">Quem quer uma conexão com você</h5>
               <button type="button" class="btn btn-outline-secondary btn-block">
                 Veja aqui
@@ -198,18 +200,27 @@
         </aside>
       </div>
       <!-- començando o outro lado -->
-      <section class="col-lg-8 col-md-8 ml-5">
-        <div class="row justify-content-center">
-          <div class="col-md-2 align-self-end margin-me">
-            <img src="image/botãoesquerda.png" class="img-fluid" alt="" />
+      <section class="col-lg-8 col-md-8">
+        <section class="row about-dash justify-content-around mt-3">
+          <i class="mr-5"></i>
+          <i class="mr-5"></i>
+          <div
+            class="col-md-8 col-lg-8 align-items-center d-flex flex-column justify-content-center ml-5"
+          >
+            <h3>Nome, Idade</h3>
+            <p class="text-secondary text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+              temporibus voluptates aperiam ab ea incidunt cumqu
+            </p>
           </div>
-          <div class="col-md-8">
-            <img src="image/foto-mapa.png" alt="" />
-          </div>
-          <div class="col-md-2 align-self-end margin-me">
-            <img src="image/botãodireita.png" alt="" />
-          </div>
-        </div>
+          <img src="image/photo.PNG" class="rounded-circle" alt="" />
+        </section>
+        <section class="row fotos mt-3  mr-3 ml-3 mt-3"></section>
+        <section
+          class="row buttons justify-content-end align-items-center mt-2"
+        >
+          <a href="#"> <img src="image/botãodireita.png" alt=""/></a>
+        </section>
       </section>
     </main>
   </body>
