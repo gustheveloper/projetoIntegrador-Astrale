@@ -105,59 +105,100 @@
 
           <!-- editar perfil-->
           <section class="cardsConexoes">
-              <section class="collumn">
-                  <i class="ml-5"></i><i class="ml-5"></i><i class="ml-2"></i><button type="button" class="btn btn-warning ml-5 mt-2"> <a href="#" class=""> SEJA PREMIUM </a> </button>
-                  <h5 class="text-color mt-2">Configurações da Conta</h5>
-                  <form> 
-                          <div class="col"> Email
-                                  <input type="text" class="form-control" placeholder="fulaninho@gmail.com">
-                          </div>
-                          <div class="col"> Celular
-                                      <input type="text" class="form-control" placeholder= "011 912345678">
-                          </div>
-                          <h5 class="text-color mt-2">Ajustes de Descoberta</h5>
-                          <label for="customRange2">Distância Máxima</label>
-                              <input type="range" class="custom-range" min="1km" max="10km" id="customRange2">
-                          <label for="customRange2">Faixa Etária</label>
-                              <input type="range" class="custom-range" min="18" max="90" id="customRange2">
-                  </form>
-                  <select class="custom-select">
-                          <option selected>Procurando por Gênero</option>
-                          <option value="1">Feminino</option>
-                          <option value="2">Masculino</option>
-                          <option value="3">Ambos</option>
-                        </select>
-                        <h5 class="text-color mt-2">Notificações</h5>
-                        <div class="custom-control custom-switch">
-                              <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                              <label class="custom-control-label" for="customSwitch1">Email</label>
-                            </div>
-                            <div class="custom-control custom-switch">
-                                  <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                                  <label class="custom-control-label" for="customSwitch1">SMS</label>
-                                </div>
-              </section>
+            <section class="collumn p-3">
+              <div class="row">
+                <button type="button" class="btn btn-astrale premium mt-2">
+                  Seja Premium
+                </button>
+              </div>
+              <h5 class="text-color mt-3">Configurações da Conta</h5>
+              <form>
+                <div class="col">
+                  <span>Email</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="fulaninho@gmail.com"
+                  />
+                </div>
+                <div class="col">
+                  <span>Celular</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="011 912345678"
+                  />
+                </div>
+                <h5 class="text-color mt-3">Ajustes de Descoberta</h5>
+                <div class="row justify-content-between perfil-padding">
+                  <label for="customRange2 ml-3">Distância Máxima</label>
+                  <label class="text-color ">25Km</label>
+                </div>
+                <input
+                  type="range"
+                  class="custom-range"
+                  min="1km"
+                  max="10km"
+                  id="customRange2"
+                />
+                <div class="row justify-content-between perfil-padding">
+                  <label for="customRange2">Faixa Etária</label>
+                  <label class="text-color ">25</label>
+                </div>
+                <input
+                  type="range"
+                  class="custom-range"
+                  min="18"
+                  max="90"
+                  id="customRange2"
+                />
+              </form>
+              <select class="custom-select">
+                <option selected>Procurando por Gênero</option>
+                <option value="1">Feminino</option>
+                <option value="2">Masculino</option>
+                <option value="3">Ambos</option>
+              </select>
+              <h5 class="text-color mt-2">Notificações</h5>
+              <div class="custom-control custom-switch">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customSwitch1"
+                />
+                <label class="custom-control-label" for="customSwitch1"
+                  >Email</label
+                >
+              </div>
+              <div class="custom-control custom-switch">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customSwitch1"
+                />
+                <label class="custom-control-label" for="customSwitch1"
+                  >SMS</label
+                >
+              </div>
+            </section>
           </section>
         </aside>
       </div>
       <!-- començando o outro lado -->
       <section class="col-lg-8 col-md-8">
         <section class="row about-dash justify-content-around mt-3">
-          <div class="col-lg-8 d-flex flex-column justify-content-center">
-            <h3 class="text-center">Nome, Idade</h3>
-            <p class="text-secundary text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque eveniet, officia a nobis non, mollitia minima doloribus
-              maxime suscipit
+          <i class="mr-5"></i>
+          <i class="mr-5"></i>
+          <div
+            class="col-md-8 col-lg-8 align-items-center d-flex flex-column justify-content-center ml-5"
+          >
+            <h3>Nome, Idade</h3>
+            <p class="text-secondary text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+              temporibus voluptates aperiam ab ea incidunt cumqu
             </p>
           </div>
-          <div class="col-lg-2 col-md-2">
-            <img
-              src="https://via.placeholder.com/130"
-              alt=""
-              class="rounded-circle"
-            />
-          </div>
+          <img src="image/photo.PNG" class="rounded-circle" alt="" />
         </section>
         <section class="row fotos mt-3  mr-3 ml-3 mt-3"></section>
         <section

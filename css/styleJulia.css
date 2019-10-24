@@ -17,7 +17,7 @@ body {
 .margin-me {
   margin-bottom: 12rem;
 }
-.truque{
+.truque {
   margin: o auto;
 }
 .btn-premium {
@@ -28,4 +28,23 @@ body {
   margin-top: 20px;
   text-align: center;
   border-radius: 50px;
+}
+
+.about-dash img {
+  width: 15%;
+}
+.premium {
+  margin: 2px auto;
+  border-radius: 12px;
+}
+h5 {
+  color: #eb7c37;
+}
+form label {
+}
+.btn-astrale {
+  background: #eb7c37;
+}
+.perfil-padding {
+  padding: 0 0.8rem;
 }
