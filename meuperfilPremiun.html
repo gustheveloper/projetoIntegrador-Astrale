@@ -18,7 +18,12 @@
     <header class="border-bottom">
       <!-- Logo e Nome -->
       <nav id="header" class="navbar navbar-light bg-light">
-        <a id="nomeDoSite" class="navbar-brand text-white" href="index.html">
+        <a
+          id="nomeDoSite"
+          class="navbar-brand "
+          style="color: #F27C38"
+          href="index.html"
+        >
           <img
             src="image/imagemLogo.png"
             width="35"
@@ -26,7 +31,7 @@
             class="d-inline-block align-top"
             alt=""
           />
-          Astrale
+          AstralePremium
         </a>
         <!-- Navegação -->
         <div id="headerMenu">
@@ -104,7 +109,92 @@
           </nav>
 
           <!-- editar perfil -->
-          <section class="cardsConexoes"></section>
+          <section class="cardsConexoes">
+            <section class="collumn">
+              <h5 class="text-color mt-2">Configurações da Conta</h5>
+              <form>
+                <div class="col">
+                  Email
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="fulaninho@gmail.com"
+                  />
+                </div>
+                <div class="col">
+                  Celular
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="011 912345678"
+                  />
+                </div>
+                <h5 class="text-color mt-2">Ajustes de Descoberta</h5>
+                <label for="customRange2">Distância Máxima</label>
+                <input
+                  type="range"
+                  class="custom-range"
+                  min="1km"
+                  max="10km"
+                  id="customRange2"
+                />
+                <label for="customRange2">Faixa Etária</label>
+                <input
+                  type="range"
+                  class="custom-range"
+                  min="18"
+                  max="90"
+                  id="customRange2"
+                />
+              </form>
+              <select class="custom-select">
+                <option selected>Procurando por Gênero</option>
+                <option value="1">Feminino</option>
+                <option value="2">Masculino</option>
+                <option value="3">Ambos</option>
+              </select>
+              <select class="custom-select">
+                <option selected>Procurando por Signo</option>
+                <option value="1">Aries</option>
+                <option value="2">Touro</option>
+                <option value="3">Gêmeos</option>
+                <option value="4">Câncer</option>
+                <option value="5">Leão</option>
+                <option value="6">Virgem</option>
+                <option value="7">Libra</option>
+                <option value="8">Escorpião</option>
+                <option value="9">Sagitário</option>
+                <option value="10">Capricórnio</option>
+                <option value="11">Aquário</option>
+                <option value="12">Peixes</option>
+              </select>
+              <h5 class="text-color mt-2">Quem quer uma conexão com você</h5>
+              <button type="button" class="btn btn-outline-secondary btn-block">
+                Veja aqui
+              </button>
+              <h5 class="text-color mt-2">Notificações</h5>
+              <div class="custom-control custom-switch">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customSwitch1"
+                />
+                <label class="custom-control-label" for="customSwitch1"
+                  >Email</label
+                >
+              </div>
+              <div class="custom-control custom-switch">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customSwitch1"
+                />
+                <label class="custom-control-label" for="customSwitch1"
+                  >SMS</label
+                >
+              </div>
+            </section>
+          </section>
         </aside>
       </div>
       <!-- començando o outro lado -->
