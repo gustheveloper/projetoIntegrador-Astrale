@@ -22,7 +22,7 @@
         <form id="novaConta-form" action="">
             <div class="form-row">    
             <div class="d-flex justify-content-center col-lg-12">   
-                <h2>CRIE SUA CONTA</h2>
+                <h2 id="novaConta-h2">CRIE SUA CONTA</h2>
             </div>
                 <div class="form-group col-lg-6">
                     <label>Nome</label>
@@ -102,5 +102,7 @@
             
         </form>
         </main>
+        <!-- FOOTER -->
+    <?php include_once("footer.php"); ?>
 </body>
 </html>

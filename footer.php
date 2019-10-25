@@ -14,7 +14,7 @@
     <title>Document</title>
 </head>
 <body>
-<footer class="d-flex justify-content-center align-items-center">
+<footer id="footer" class="d-flex justify-content-center align-items-center">
     © Coryright Group Astrale
 </footer>
 </body>
