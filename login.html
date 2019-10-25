@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link href="css/styleNay.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"/>
+    <title>Login</title>
+</head>
+
+<body>
+    <header class="border-bottom">
+        <!-- Logo e Nome -->
+        <nav id="header" class="navbar navbar-light bg-light">
+            <a id="nomeDoSite" class="navbar-brand text-white" href="index.html">
+                <img src="image/imagemLogo.png" width="35" height="35" class="d-inline-block align-top" alt=""/>
+                Astrale
+            </a>
+            <!-- Navegação -->
+            <div id="headerMenu">
+                <ul class="nav justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="blog.php" target="_blank">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="sobre.html" target="_blank">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="ajuda.html" target="_blank">Ajuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contato.html" target="_blank">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="login" class="nav-link" href="login.html" target="_blank">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="d-flex justify-content-center align-items-center">
+        <div class="login" >
+            <form action="" class="d-flex flex-column justify-content-center align-items-center">
+                <h1 id="text-shadow" class="h2 title-login">Login</h1>
+                <p id="text-shadow">Lorem ipsum dolor sit amet, consetetur adipiscing edit</p>
+                <input class="input-1" type="email" name="email" id="email" placeholder="email"/>
+                <input class="input-1" type="text" name="senha" id="senha" placeholder="senha"/>
+                <br>
+                <button type="submit" class="">Entrar</button>
+                <br><br>
+            <div  class ="forgot d-flex justify-content-center">
+                <a id="text-shadow" href="#">Esqueceu seu email ? </a> | <a id="text-shadow" href="#">Esqueceu sua senha ?</a>
+            </div>
+            <div class="">
+                <div id="checkbox-w" class="d-flex justify-content-between align-items-center" id="text-shadow">
+                    <input type ="checkbox" class=""/>
+                    <span id="text-shadow" class="text-white"> Lembrar meu Login</span>
+                </div>
+            
+            </div>
+        </div>
+    </form>
+    </main>
+</body>
+
+</html>
