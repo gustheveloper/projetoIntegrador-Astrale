@@ -8,8 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link href="css/styleGiuli.css" rel="stylesheet">
-    <link href="css/styleAtila.css" rel="stylesheet">
+    <link href="css/styleTintino.css" rel="stylesheet">
     <title>Nova Conta</title>
 </head>
 <body id="novaConta-body" class="">
@@ -27,7 +26,7 @@
             </div>
                 <div class="form-group col-lg-6">
                     <label>Nome</label>
-                    <input type="text" class="form-control " name="" id="inputName" placeholder="Nome">
+                    <input type="text" class="form-control " name="" id="inputName" placeholder="Digite seu nome">
                 </div>
                 <div class="form-group col-lg-6">
                     <label for="">Gênero</label>
@@ -39,15 +38,15 @@
                 </div>
                 <div class="form-group col-lg-6">
                     <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu e-mail">
                 </div>
                 <div class="form-group col-lg-6">
                     <label>Data de Nascimento</label>
-                    <input type="date" class="form-control" id="inputDate" placeholder="Data de nascimento">
+                    <input type="date" class="form-control" id="inputDate" placeholder="Digite sua data de nascimento">
                 </div>
                 <div class="form-group col-lg-6">
                     <label>Senha</label>
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua senha">
                     <small id="passwordHelpInline" class="text-muted">
                         Deve ter entre 8 e 20 caracteres.
                     </small>
@@ -72,7 +71,7 @@
                 </div>
                 <div class="form-group col-lg-6">
                 <label>Corfirme a Senha</label>
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Confirme a senha">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua senha novamente">
                     <small id="passwordHelpInline" class="text-muted">
                             Deve ter entre 8 e 20 caracteres.
                     </small>
@@ -97,15 +96,11 @@
                     </div>
                 </div>
                 <div class="form-group col-lg-6 d-flex justify-content-center align-items-center">
-                    <a id="home-btn-cadastrar" class="d-flex justify-content-center align-items-center" href="novaConta.php" role="button"><h3>Continuar</h3></a>
+                    <a id="btn-continuar" class="d-flex justify-content-center align-items-center" href="novaConta.php" role="button"><h3>Continuar</h3></a>
                 </div>
             </div>
             
         </form>
         </main>
-                
-        <footer class="d-flex justify-content-center align-items-center">
-                © Coryright Group Astrale
-        </footer>
 </body>
 </html>
