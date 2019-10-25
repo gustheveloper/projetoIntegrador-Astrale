@@ -31,8 +31,8 @@
     </div>         
     </main>
 
-    <!-- FOOTER -->
-    <?php include_once("footer.php"); ?>
+    <!-- <!-- FOOTER -->
+    
 
 </body>
 </html>
