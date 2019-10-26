@@ -15,7 +15,7 @@
 </head>
 <body>
 <footer id="footer" class="d-flex justify-content-center align-items-center">
-    © Coryright Group Astrale
+    © Copyright Group Astrale
 </footer>
 </body>
 </html>

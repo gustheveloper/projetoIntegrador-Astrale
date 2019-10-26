@@ -13,26 +13,26 @@
     <title>Document</title>
 </head>
 <body id="index-body" class="">
-    
-    <!-- HEADER --> 
+
+    <!-- HEADER -->
     <div id="index-header">
         <?php include_once("header.html"); ?>
     </div>
 
      <!--MAIN -->
-    
+
     <main class="">
     <div id="index-background" class="d-flex align-items-center border-bottom">
     <div id="home-texto" class="d-flex flex-column">
                 <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
                 <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>
-                <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="novaConta.php" role="button"><h3>CADASTRE-SE</h3></a>
-    </div>   
-    </div>         
+                <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="cadastroUsuario.html" role="button"><h3>CADASTRE-SE</h3></a>
+    </div>
+    </div>
     </main>
 
     <!-- <!-- FOOTER -->
-    
+
 
 </body>
 </html>

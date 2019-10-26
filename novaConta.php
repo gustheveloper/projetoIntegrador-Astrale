@@ -12,16 +12,16 @@
     <title>Nova Conta</title>
 </head>
 <body id="novaConta-body" class="">
-        <!-- HEADER -->   
+        <!-- HEADER -->
         <?php include_once("header.html"); ?>
-                
+
         <!-- MAIN -->
         <main id="novaConta-main" class="d-flex justify-content-center align-items-center">
-        
+
         <!-- FORMULÁRIO DE CADASTRO DE NOVA CONTA -->
         <form id="novaConta-form" action="">
-            <div class="form-row">    
-            <div class="d-flex justify-content-center col-lg-12">   
+            <div class="form-row">
+            <div class="d-flex justify-content-center col-lg-12">
                 <h2 id="novaConta-h2">CRIE SUA CONTA</h2>
             </div>
                 <div class="form-group col-lg-6">
@@ -31,7 +31,7 @@
                 <div class="form-group col-lg-6">
                     <label for="">Gênero</label>
                     <select class="form-control" name="genero">
-                        <option value="">Selecione...</option>
+                        <option value="" hidden>Selecione...</option>
                         <option value="masculino">Masculino</option>
                         <option value="feminino">Feminino</option>
                     </select>
@@ -52,7 +52,7 @@
                     </small>
                 </div>
                 <div class="form-group col-lg-6">
-                    <label for="">Signo</label>    
+                    <label for="">Signo</label>
                     <select class="form-control" name="signo">
                         <option value="">Selecione...</option>
                         <option value="aquario">Aquário</option>
@@ -70,22 +70,30 @@
                     </select>
                 </div>
                 <div class="form-group col-lg-6">
-                <label>Corfirme a Senha</label>
+                <label>Confirme a Senha</label>
                     <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua senha novamente">
                     <small id="passwordHelpInline" class="text-muted">
                             Deve ter entre 8 e 20 caracteres.
                     </small>
                 </div>
                 <div class="form-group col-lg-6">
-                    <label for="">Ascendente</label>    
+                    <label for="">Ascendente</label>
                         <select class="form-control" name="ascendente">
-                        <option value="">Selecione...</option>
-                        <option value="lua">Lua</option>
-                        <option value="sol">Sol</option>
-                        <option value="areia">Areia</option>
-                        <option value="mar">Mar</option>
+                        <option value="" hidden>Selecione...</option>
+                        <option value="aquario">Aquário</option>
+                        <option value="peixes">Peixes</option>
+                        <option value="aries">Áries</option>
+                        <option value="touro">Touro</option>
+                        <option value="gemeos">Gêmeos</option>
+                        <option value="cancer">Câncer</option>
+                        <option value="leao">Leão</option>
+                        <option value="virgem">Virgem</option>
+                        <option value="libra">Libra</option>
+                        <option value="escorpiao">Escorpião</option>
+                        <option value="sagitario">Sagitário</option>
+                        <option value="capricornio">Capricórnio</option>
                     </select>
-                </div>    
+                </div>
                 <div class="form-group col-lg-6">
                     <label>Foto</label>
                     <div class="input-group lg-3">
@@ -96,10 +104,10 @@
                     </div>
                 </div>
                 <div class="form-group col-lg-6 d-flex justify-content-center align-items-center">
-                    <a id="btn-continuar" class="d-flex justify-content-center align-items-center" href="novaConta.php" role="button"><h3>Continuar</h3></a>
+                    <a id="btn-continuar" class="d-flex justify-content-center align-items-center" href="login.html" role="button"><h3>Continuar</h3></a>
                 </div>
             </div>
-            
+
         </form>
         </main>
         <!-- FOOTER -->
