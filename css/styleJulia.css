@@ -39,11 +39,16 @@ body {
 h5 {
   color: #eb7c37;
 }
-form label {
-}
+
 .btn-astrale {
   background: #eb7c37;
 }
 .perfil-padding {
   padding: 0 0.8rem;
+}
+.fotos {
+  height: 53vh;
+  background: url("../image/fotos-perfil.jpeg");
+  background-position: center;
+  background-size: cover;
 }
