@@ -31,7 +31,7 @@
                 <div class="form-group col-lg-6">
                     <label for="">Gênero</label>
                     <select class="form-control" name="genero">
-                        <option value="" hidden>Selecione...</option>
+                        <option value="" hidden>Me identifico como...</option>
                         <option value="masculino">Masculino</option>
                         <option value="feminino">Feminino</option>
                     </select>
@@ -52,6 +52,13 @@
                     </small>
                 </div>
                 <div class="form-group col-lg-6">
+                  <label>Confirme a Senha</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua senha novamente">
+                  <small id="passwordHelpInline" class="text-muted">
+                    Deve ter entre 8 e 20 caracteres.
+                  </small>
+                </div>
+                <div class="form-group col-lg-6">
                     <label for="">Signo</label>
                     <select class="form-control" name="signo">
                         <option value="">Selecione...</option>
@@ -68,13 +75,6 @@
                         <option value="sagitario">Sagitário</option>
                         <option value="capricornio">Capricórnio</option>
                     </select>
-                </div>
-                <div class="form-group col-lg-6">
-                <label>Confirme a Senha</label>
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua senha novamente">
-                    <small id="passwordHelpInline" class="text-muted">
-                            Deve ter entre 8 e 20 caracteres.
-                    </small>
                 </div>
                 <div class="form-group col-lg-6">
                     <label for="">Ascendente</label>
