@@ -14,8 +14,14 @@
     <title>Document</title>
 </head>
 <body>
-<footer id="footer" class="d-flex justify-content-center align-items-center">
-    © Copyright Group Astrale
-</footer>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+        <footer id="footer" class="d-flex justify-content-center align-items-center">
+            © Copyright Group Astrale
+        </footer>
+        </div>
+    </div>
+</div>
 </body>
 </html>

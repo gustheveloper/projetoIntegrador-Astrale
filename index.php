@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,51 +13,67 @@
     <link href="css/styleTintino.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body id="index-body" class="">
+
+<body id="index-body" class="container-fluid">
 
     <!-- HEADER -->
-    <div id="index-header">
+  
         <?php include_once("header.html"); ?>
+    
+
+    <!--MAIN -->
+    <div class="row">
+        <div class="col">
+            <main class="">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div id="img-1" class="d-flex align-items-center border-bottom">
+                                <div id="home-texto" class="d-flex flex-column">
+                                    <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
+                                    <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>
+                                    <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="cadastroUsuario.html" role="button">
+                                        <h3>APAIXONE-SE</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div id="img-2" class="d-flex align-items-center border-bottom">
+                                <div id="home-texto" class="d-flex flex-column">
+                                    <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
+                                    <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>
+                                    <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="cadastroUsuario.html" role="button">
+                                        <h3>APAIXONE-SE</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div id="img-3" class="d-flex align-items-center border-bottom">
+                                <div id="home-texto" class="d-flex flex-column">
+                                    <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
+                                    <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>
+                                    <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="cadastroUsuario.html" role="button">
+                                        <h3>APAIXONE-SE</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
     </div>
 
-     <!--MAIN -->
+    <div class="row">
+        <?php include_once("página-blog.php"); ?>
+    </div>
 
-    <main class="">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div id="img-1" class="d-flex align-items-center border-bottom">
-            <div id="home-texto" class="d-flex flex-column">
-                <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
-                <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>
-                <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="cadastroUsuario.html" role="button"><h3>CADASTRE-SE</h3></a>
-            </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-        <div id="img-2" class="d-flex align-items-center border-bottom">
-            <div id="home-texto" class="d-flex flex-column">
-                <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
-                <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>
-                <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="cadastroUsuario.html" role="button"><h3>CADASTRE-SE</h3></a>
-            </div>
-        </div>
-        </div>
-        <div class="carousel-item">
-        <div id="img-3" class="d-flex align-items-center border-bottom">
-            <div id="home-texto" class="d-flex flex-column">
-                <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
-                <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>
-                <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="cadastroUsuario.html" role="button"><h3>CADASTRE-SE</h3></a>
-            </div>
-        </div>
-        </div>
-    </div>
-    </div>
-    </main>
 
     <!-- <!-- FOOTER -->
     <?php include_once("footer.php"); ?>
 
 </body>
+
 </html>

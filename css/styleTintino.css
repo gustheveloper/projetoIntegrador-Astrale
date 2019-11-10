@@ -1,6 +1,6 @@
-#index-body{
-    height: 100vh;
-    width: 100vw;
+#index-body {
+    min-height: 100vh;
+    max-width: 100vw;
 }
 
 /* #index-background{
@@ -13,53 +13,52 @@
     z-index: 1;
 } */
 
-#btn-cadastro{
-  color: #2c2740;
-  width: 300px;
-  height: 75px;
-  background-color: #f27C38;
-  text-decoration: none;
-  border-style: solid;
-  border-radius: 50px;
-  border:1px solid;
-  border-color: #f27c38;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  
+#btn-cadastro {
+    color: aliceblue;
+    width: 300px;
+    height: 75px;
+    background-color: #574973;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 50px;
+    border: 1px solid;
+    border-width: 2px;
+    border-color: aliceblue;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #btn-cadastro:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  background-color: #f29C50;
-  border-color: #f29c50;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    opacity: 90%;
 }
 
-#btn-cadastro h3{
+#btn-cadastro h3 {
     font-weight: bold;
     font-size: 115%;
 }
 
-.home-h1{
+.home-h1 {
     color: aliceblue;
     font-size: 300%;
     align-self: center;
     text-shadow: black 0.1em 0.1em 0.2em;
-    text-rendering: optimizeLegibility;
 }
 
-.home-p{
-    color:aliceblue;
+.home-p {
+    color: aliceblue;
     font-size: 150%;
     text-shadow: black 0.1em 0.1em 0.2em;
-    text-rendering: optimizeLegibility;
 }
-#home-texto{
+
+#home-texto {
     width: 70%;
     font-size: x-large;
     position: absolute;
     padding-left: 10%;
 }
 
-#btn-continuar{
+#btn-continuar {
     color: #2c2740;
     width: 300px;
     height: 75px;
@@ -67,84 +66,127 @@
     text-decoration: none;
     border-style: solid;
     border-radius: 50px;
-    border:1px solid;
+    border: 1px solid;
     border-color: #f27c38;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  }
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  #btn-continuar:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+#btn-continuar:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     background-color: #f29C50;
     border-color: #f29c50;
-  }
+}
 
 /*   #btn-continuar h3{
     font-weight: bold!important;
     font-size: 115%!important;
   } */
 
-  /* NOVA CONTA ------------------------------------------------------------------------------------*/
+/* NOVA CONTA ------------------------------------------------------------------------------------*/
 
-  #novaConta-main {
-    width: 100vw;
+#novaConta-main {
+
     max-width: 100%;
-    height: 84.9vh;
+    min-height: 84.9vh;
 }
 
 #novaConta-form {
-        width: 50%;
-        height: 100%;
-  }
+    width: 50%;
+    height: 100%;
+}
 
-#novaConta-main label{
+#novaConta-main label {
     font-weight: bold;
     font-size: larger;
     color: rgb(78, 78, 78);
 }
 
-#novaConta-main h1{
+#novaConta-main h1 {
     color: rgb(78, 78, 78);
 }
 
-#novaConta-h2{
+#novaConta-h2 {
     font-weight: bold;
     font-size: x-larger;
     color: rgb(78, 78, 78);
 }
 
-/* FOOTER ---------------------------------------------------------------- */
-/* footer{
-    background-color: #574973!important;
-    height: 10vh;
-    color: aliceblue;
-} */
 
-#img-1{
+#img-1 {
     background-image: url("../image/couple-7.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 84.9vh;
+    min-height: 94.9vh;
 }
 
-#img-2{
+#img-2 {
     background-image: url("../image/couple-1.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 84.9vh;
+    min-height: 94.9vh;
 }
 
-#img-3{
+#img-3 {
     background-image: url("../image/couple-6.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 84.9vh;
+    min-height: 94.9vh;
 }
 
 footer {
-    background-color: #574973!important;
+    background-color: #574973 !important;
     height: 5vh;
     color: aliceblue;
+}
+
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+@media (max-width: 600px) {
+
+    .home-h1 {
+        color: aliceblue;
+        font-size: 150%;
+        align-self: center;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+    .home-p {
+        color: aliceblue;
+        font-size: 100%;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+    #btn-cadastro {
+        color: aliceblue;
+        width: 150px;
+        height: 55px;
+        background-color: #574973;
+        text-decoration: none;
+        border-style: solid;
+        border-radius: 50px;
+        border: 1px solid;
+        border-color: aliceblue;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #btn-cadastro:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        opacity: 90%;
+    }
+
+    #btn-cadastro h3 {
+        font-weight: bold;
+        font-size: 70%;
+    }
+
+    #home-texto{
+        display: flex;
+        justify-content: center;
+    }
 }

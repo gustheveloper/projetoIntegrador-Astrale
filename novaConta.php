@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,106 +12,124 @@
     <link href="css/styleTintino.css" rel="stylesheet">
     <title>Nova Conta</title>
 </head>
-<body id="novaConta-body" class="">
+
+<body id="novaConta-body">
+    <div class="container-fluid">
         <!-- HEADER -->
         <?php include_once("header.html"); ?>
 
+
+
+
         <!-- MAIN -->
-        <main id="novaConta-main" class="d-flex justify-content-center align-items-center">
+        <div class="row">
 
-        <!-- FORMULÁRIO DE CADASTRO DE NOVA CONTA -->
-        <form id="novaConta-form" action="">
-            <div class="form-row">
-            <div class="d-flex justify-content-center col-lg-12">
-                <h2 id="novaConta-h2">CRIE SUA CONTA</h2>
-            </div>
-                <div class="form-group col-lg-6">
-                    <label>Nome</label>
-                    <input type="text" class="form-control " name="" id="inputName" placeholder="Digite seu nome">
-                </div>
-                <div class="form-group col-lg-6">
-                    <label for="">Gênero</label>
-                    <select class="form-control" name="genero">
-                        <option value="" hidden>Me identifico como...</option>
-                        <option value="masculino">Masculino</option>
-                        <option value="feminino">Feminino</option>
-                    </select>
-                </div>
-                <div class="form-group col-lg-6">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu e-mail">
-                </div>
-                <div class="form-group col-lg-6">
-                    <label>Data de Nascimento</label>
-                    <input type="date" class="form-control" id="inputDate" placeholder="Digite sua data de nascimento">
-                </div>
-                <div class="form-group col-lg-6">
-                    <label>Senha</label>
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua senha">
-                    <small id="passwordHelpInline" class="text-muted">
-                        Deve ter entre 8 e 20 caracteres.
-                    </small>
-                </div>
-                <div class="form-group col-lg-6">
-                  <label>Confirme a Senha</label>
-                  <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua senha novamente">
-                  <small id="passwordHelpInline" class="text-muted">
-                    Deve ter entre 8 e 20 caracteres.
-                  </small>
-                </div>
-                <div class="form-group col-lg-6">
-                    <label for="">Signo</label>
-                    <select class="form-control" name="signo">
-                        <option value="">Selecione...</option>
-                        <option value="aquario">Aquário</option>
-                        <option value="peixes">Peixes</option>
-                        <option value="aries">Áries</option>
-                        <option value="touro">Touro</option>
-                        <option value="gemeos">Gêmeos</option>
-                        <option value="cancer">Câncer</option>
-                        <option value="leao">Leão</option>
-                        <option value="virgem">Virgem</option>
-                        <option value="libra">Libra</option>
-                        <option value="escorpiao">Escorpião</option>
-                        <option value="sagitario">Sagitário</option>
-                        <option value="capricornio">Capricórnio</option>
-                    </select>
-                </div>
-                <div class="form-group col-lg-6">
-                    <label for="">Ascendente</label>
-                        <select class="form-control" name="ascendente">
-                        <option value="" hidden>Selecione...</option>
-                        <option value="aquario">Aquário</option>
-                        <option value="peixes">Peixes</option>
-                        <option value="aries">Áries</option>
-                        <option value="touro">Touro</option>
-                        <option value="gemeos">Gêmeos</option>
-                        <option value="cancer">Câncer</option>
-                        <option value="leao">Leão</option>
-                        <option value="virgem">Virgem</option>
-                        <option value="libra">Libra</option>
-                        <option value="escorpiao">Escorpião</option>
-                        <option value="sagitario">Sagitário</option>
-                        <option value="capricornio">Capricórnio</option>
-                    </select>
-                </div>
-                <div class="form-group col-lg-6">
-                    <label>Foto</label>
-                    <div class="input-group lg-3">
-                    <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
-                        <label class="custom-file-label" for="inputGroupFile01"></label>
-                    </div>
-                    </div>
-                </div>
-                <div class="form-group col-lg-6 d-flex justify-content-center align-items-center">
-                    <a id="btn-continuar" class="d-flex justify-content-center align-items-center" href="login.html" role="button"><h3>Continuar</h3></a>
-                </div>
-            </div>
+            <main id="novaConta-main" class="d-flex justify-content-center align-items-center align-self-center">
 
-        </form>
-        </main>
+                <!-- FORMULÁRIO DE CADASTRO DE NOVA CONTA -->
+                <form id="novaConta-form" action="">
+                    <div class="form-row">
+                        <div class="d-flex justify-content-center col-lg-12">
+                            <h2 id="novaConta-h2">CRIE SUA CONTA</h2>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Nome</label>
+                            <input type="text" class="form-control " name="" id="inputName" placeholder="Digite seu nome">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label for="">Gênero</label>
+                            <select class="form-control" name="genero">
+                                <option value="" hidden>Me identifico como...</option>
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu e-mail">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Data de Nascimento</label>
+                            <input type="date" class="form-control" id="inputDate" placeholder="Digite sua data de nascimento">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Senha</label>
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua senha">
+                            <small id="passwordHelpInline" class="text-muted">
+                                Deve ter entre 8 e 20 caracteres.
+                            </small>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Confirme a Senha</label>
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua senha novamente">
+                            <small id="passwordHelpInline" class="text-muted">
+                                Deve ter entre 8 e 20 caracteres.
+                            </small>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label for="">Signo</label>
+                            <select class="form-control" name="signo">
+                                <option value="">Selecione...</option>
+                                <option value="aquario">Aquário</option>
+                                <option value="peixes">Peixes</option>
+                                <option value="aries">Áries</option>
+                                <option value="touro">Touro</option>
+                                <option value="gemeos">Gêmeos</option>
+                                <option value="cancer">Câncer</option>
+                                <option value="leao">Leão</option>
+                                <option value="virgem">Virgem</option>
+                                <option value="libra">Libra</option>
+                                <option value="escorpiao">Escorpião</option>
+                                <option value="sagitario">Sagitário</option>
+                                <option value="capricornio">Capricórnio</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label for="">Ascendente</label>
+                            <select class="form-control" name="ascendente">
+                                <option value="" hidden>Selecione...</option>
+                                <option value="aquario">Aquário</option>
+                                <option value="peixes">Peixes</option>
+                                <option value="aries">Áries</option>
+                                <option value="touro">Touro</option>
+                                <option value="gemeos">Gêmeos</option>
+                                <option value="cancer">Câncer</option>
+                                <option value="leao">Leão</option>
+                                <option value="virgem">Virgem</option>
+                                <option value="libra">Libra</option>
+                                <option value="escorpiao">Escorpião</option>
+                                <option value="sagitario">Sagitário</option>
+                                <option value="capricornio">Capricórnio</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Foto</label>
+                            <div class="input-group lg-3">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                                    <label class="custom-file-label" for="inputGroupFile01"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 d-flex justify-content-center align-items-center">
+                            <a id="btn-continuar" class="d-flex justify-content-center align-items-center" href="login.html" role="button">
+                                <h3>Continuar</h3>
+                            </a>
+                        </div>
+                    </div>
+
+                </form>
+            </main>
+
+        </div>
+
+
         <!-- FOOTER -->
-    <?php include_once("footer.php"); ?>
+
+        <div class="row">
+            <?php include_once("footer.php"); ?>
+        </div>
+    </div>
 </body>
+
 </html>
