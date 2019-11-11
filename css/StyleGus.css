@@ -74,9 +74,6 @@ div img{
   width: 30vw;
 }
 
-.imagem{
-
-}
 
 .text-post{
 
@@ -87,4 +84,33 @@ footer {
     background-color: #574973!important;
     height: 5vh;
     color: aliceblue;
+}
+
+@media (max-width: 700px){
+  .posts{
+    display: flex;
+    flex-direction: column;
+  }
+  .card,.card-body{
+    width: 100%;
+  }
+  .card img{
+    width: 94%;
+  }
+  .card:hover img{
+    margin: 0px 0px 10px 0px;
+    width: 94vw;
+    transition: 0.5s;
+  }
+  .text-post{
+    padding: 10px;
+    font-size: 20px;
+  }
+  .text-post h2{
+    font-size: 35px;
+  }
+  div img{
+    height: 40vh;
+    width: 90vw;
+  }
 }
