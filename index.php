@@ -67,13 +67,9 @@
     </div>
 
     <div class="row">
-        <?php include_once("página-blog.php"); ?>
+        <div class="container-fluid">
+        <?php include_once("blog.php"); ?>
+        </div>        
     </div>
-
-
-    <!-- <!-- FOOTER -->
-    <?php include_once("footer.php"); ?>
-
-</body>
 
 </html>
