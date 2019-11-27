@@ -17,9 +17,9 @@
 <body id="index-body" class="container-fluid">
 
     <!-- HEADER -->
-  
+
         <?php include_once("header.html"); ?>
-    
+
 
     <!--MAIN -->
     <div class="row">
@@ -32,7 +32,7 @@
                                 <div id="home-texto" class="d-flex flex-column">
                                     <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
                                     <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>
-                                    <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="cadastroUsuario.html" role="button">
+                                    <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="cadastroUsuario.php" role="button">
                                         <h3>APAIXONE-SE</h3>
                                     </a>
                                 </div>
@@ -41,10 +41,10 @@
                         <div class="carousel-item">
                             <div id="img-2" class="d-flex align-items-center border-bottom">
                                 <div id="home-texto" class="d-flex flex-column">
-                                    <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
+                                    <h1 class="home-h1">Você já conhece todas as funções do Premium?</h1>
                                     <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>
                                     <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="cadastroUsuario.html" role="button">
-                                        <h3>APAIXONE-SE</h3>
+                                        <h3>SAIBA MAIS</h3>
                                     </a>
                                 </div>
                             </div>
@@ -52,10 +52,10 @@
                         <div class="carousel-item">
                             <div id="img-3" class="d-flex align-items-center border-bottom">
                                 <div id="home-texto" class="d-flex flex-column">
-                                    <h1 class="home-h1">Encontre a pessoa certa com ajuda das estrelas!</h1>
+                                    <h1 class="home-h1">Confira o horóscopo da semana!</h1>
                                     <p class="home-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat amet quidem corporis.</p>
-                                    <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="cadastroUsuario.html" role="button">
-                                        <h3>APAIXONE-SE</h3>
+                                    <a id="btn-cadastro" class="d-flex justify-content-center align-items-center" href="blog.php" role="button">
+                                        <h3>SAIBA MAIS</h3>
                                     </a>
                                 </div>
                             </div>
@@ -65,11 +65,10 @@
             </main>
         </div>
     </div>
+    <!-- <div id="teste">
+      <p>Diretoria Bananas de Pijama</p>
+    </div> -->
 
-    <div class="row">
-        <div class="container-fluid">
-        <?php include_once("blog.php"); ?>
-        </div>        
-    </div>
+    <?php include_once 'footer.php'; ?>
 
 </html>

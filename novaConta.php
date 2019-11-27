@@ -16,10 +16,10 @@
 <body id="novaConta-body">
     <div class="container-fluid">
         <!-- HEADER -->
-        <?php include_once("header.html"); ?>
-
-
-
+        <header class="border-bottom">
+            <!-- Logo e Nome -->
+                <?php include 'header.html'; ?>
+        </header>
 
         <!-- MAIN -->
         <div class="row">
@@ -53,7 +53,7 @@
                             <input type="date" class="form-control" id="inputDate" placeholder="Digite sua data de nascimento">
                         </div>
                         <div class="form-group col-lg-6 d-flex justify-content-center align-items-center">
-                            <a id="btn-continuar" class="d-flex justify-content-center align-items-center" href="login.html" role="button">
+                            <a id="btn-continuar" class="d-flex justify-content-center align-items-center" href="login.php" role="button">
                                 <h3>Continuar</h3>
                                 </a>
          </form>

@@ -2,21 +2,6 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
-/* Início do estilo para header */
-
-#header {
-    background-color: #574973!important;
-    height: 10vh;
-}
-
-#nomeDoSite {
-    font-size: 1.9rem;
-    font-family: 'Poppins', sans-serif;}
-
-#headerMenu {
-    width: 50%;
-}
-
 .nav-link:hover {
     color: black!important;
     transition: all 0.1s ease-in-out;
@@ -60,7 +45,7 @@
 
 .chatConversa {
     height: 70vh;
-    overflow: auto; 
+    overflow: auto;
 }
 
 .chatEscreve {

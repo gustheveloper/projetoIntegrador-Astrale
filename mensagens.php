@@ -13,32 +13,8 @@
 <body>
     <header class="border-bottom">
             <!-- Logo e Nome -->
-        <nav id="header" class="navbar navbar-light bg-light">
-            <a id="nomeDoSite" class="navbar-brand text-white" href="index.php">
-                <img src="image/imagemLogo.png" width="35" height="35" class="d-inline-block align-top" alt="">
-                Astrale
-            </a>
-            <!-- Navegação -->
-            <div id="headerMenu">
-                <ul class="nav justify-content-between">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="blog.php" target="_blank">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="sobre.html" target="_blank">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="ajuda.html" target="_blank">Ajuda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="contato.html" target="_blank">Contato</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="login" class="nav-link" href="login.html" target="_blank">Olá, Fulanx!</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <?php include_once 'header.html'; ?>
+        
     </header>
 
     <main class="container-fluid">
@@ -58,7 +34,7 @@
                                     <a class="nav-link text-white" href="conexoes.html" target="_self">Conexões</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a id="mensagens" class="nav-link mensagens" href="mensagens.html" target="_self">Mensagens</a> 
+                                    <a id="mensagens" class="nav-link mensagens" href="mensagens.html" target="_self">Mensagens</a>
                                 </li>
                             </ul>
                         </div>
