@@ -19,15 +19,14 @@
   <body>
       <header class="border-bottom">
           <!-- Logo e Nome -->
-
-            <div id="headerMenu">
-              <ul class="nav justify-content-between">
+              <?php include 'header.html'; ?>
+              <!-- <ul class="nav justify-content-between">
                 <li class="nav-item">
                   <a id="login" class="nav-link" href="login.html" target="_blank"
                     >Olá, Fulanx!</a
                   >
                 </li>
-              </ul>
+              </ul> -->
         </header>
 
         <main class="d-flex">

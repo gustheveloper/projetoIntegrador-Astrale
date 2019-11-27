@@ -17,53 +17,8 @@
   <body>
     <header class="border-bottom">
       <!-- Logo e Nome -->
-      <nav id="header" class="navbar navbar-light bg-light">
-        <a
-          id="nomeDoSite"
-          class="navbar-brand "
-          style="color: #F27C38"
-          href="index.php"
-        >
-          <img
-            src="image/imagemLogo.png"
-            width="35"
-            height="35"
-            class="d-inline-block align-top"
-            alt=""
-          />
-          AstralePremium
-        </a>
-        <!-- Navegação -->
-        <div id="headerMenu">
-          <ul class="nav justify-content-between">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="blog.php" target="_blank"
-                >Blog</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="sobre.html" target="_blank"
-                >Sobre</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="ajuda.html" target="_blank"
-                >Ajuda</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="contato.html" target="_blank"
-                >Contato</a
-              >
-            </li>
-            <li class="nav-item">
-              <a id="login" class="nav-link" href="login.html" target="_blank"
-                >Olá, Fulanx!</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <?php include_once 'header.html'; ?>
+
     </header>
     <main class="d-flex">
       <div class="col-lg-4 col-md-4 pl-0 pr-0">
