@@ -82,35 +82,62 @@
     font-size: 115%!important;
   } */
 
+
+
+
 /* NOVA CONTA ------------------------------------------------------------------------------------*/
 
 #novaConta-main {
-
-    max-width: 100%;
+    max-width:100%;
     min-height: 84.9vh;
 }
 
 #novaConta-form {
-    width: 50%;
-    height: 100%;
+        width: 50%;
+        height: 100%; 
 }
 
 #novaConta-main label {
-    font-weight: bold;
-    font-size: larger;
-    color: rgb(78, 78, 78);
+        font-weight: bold;
+        font-size: larger;
+        color: rgb(78, 78, 78);
 }
-
+    
 #novaConta-main h1 {
-    color: rgb(78, 78, 78);
-}
-
+        color: rgb(78, 78, 78);
+      }
+    
 #novaConta-h2 {
-    font-weight: bold;
-    font-size: x-larger;
-    color: rgb(78, 78, 78);
+        font-weight: bold;
+        font-size: x-larger;
+        color: rgb(78, 78, 78);
 }
 
+#novaConta-main {
+    max-width:100%;
+    min-height: 84.9vh;
+}
+
+#novaConta-form {
+        width: 50%;
+        height: 100%; 
+}
+
+#novaContaUm-main label {
+        font-weight: bold;
+        font-size: larger;
+        color: rgb(78, 78, 78);
+}
+    
+#novaContaUm-main h1 {
+        color: rgb(78, 78, 78);
+      }
+    
+#novaContaUm-h2 {
+        font-weight: bold;
+        font-size: x-larger;
+        color: rgb(78, 78, 78);
+}
 
 #img-1 {
     background-image: url("../image/couple-7.jpg");
@@ -147,7 +174,7 @@ footer {
     padding: 0 !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
     .home-h1 {
         color: aliceblue;
