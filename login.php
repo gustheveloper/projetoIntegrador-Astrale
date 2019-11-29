@@ -24,7 +24,7 @@
                 <input class="input-1" type="email" name="email" id="email" placeholder="Email"/>
                 <input class="input-1" type="password" name="senha" id="senha" placeholder="Senha"/>
                 <br>
-                <button class="btn-enter"><a href="conexoes.html" style="text-decoration: none; color:white">Login</a></button>
+                <button class="btn-enter"><a href="conexoes.php" style="text-decoration: none; color:white">Login</a></button>
                 <br><br>
             <div  class ="forgot d-flex justify-content-center">
                 <a id="text-shadow" href="#">Esqueceu seu email? </a><a id="text-shadow" href="#">| Esqueceu sua senha?</a>

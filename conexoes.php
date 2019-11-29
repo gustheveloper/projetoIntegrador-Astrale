@@ -13,11 +13,10 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styleJose.css" />
-    <link rel="stylesheet" href="css/styleGiuli.css">
+    <link rel="stylesheet" href="css/styleJose.css">
+    <link rel="stylesheet" href="css/styleGus1.css">
   </head>
   <body>
-      <header class="border-bottom">
           <!-- Logo e Nome -->
               <?php include 'header.html'; ?>
               <!-- <ul class="nav justify-content-between">
@@ -27,15 +26,14 @@
                   >
                 </li>
               </ul> -->
-        </header>
 
         <main class="d-flex">
 
 
-            <div class="col-lg-4 col-md-4 pl-0 pr-0">
-                <aside class="border-right bg-light">
+            <!-- <div class=""> -->
+                <!-- <aside class="border-right bg-light">
                     <!-- menu aside -->
-                    <nav id="menuSecundario" class="navbar navbar-light bg-light">
+                    <!-- <nav id="menuSecundario" class="navbar navbar-light bg-light">
                         <img src="image/me.jpeg" width="75" height="75" class="d-inline-block align-top rounded-circle" alt="">
                         <div>
                             <ul class="nav">
@@ -50,10 +48,10 @@
                                 </li>
                             </ul>
                         </div>
-                    </nav>
+                    </nav> --> -->
 
                     <!-- cards com os perfis conectados -->
-                    <section class="cardsConexoes">
+                    <!-- <section class="cardsConexoes">
                         <div class="card mb-5" style="max-width: 100vw;">
                             <div class="row no-gutters">
                                 <div class="col-lg-7 col-md-7 col-7">
@@ -116,42 +114,45 @@
 
                     </section>
                 </aside>
-            </div>
+            </div> -->
 
     <!-- inicio do dashboard -->
-    <main class="col-lg-8 col-md-8 ">
-      <section class="row about-dash justify-content-around mt-3">
+    <main class="col-lg-12 col-md-12" id="likes">
+      <section class="row about-dash justify-content-around">
         <i class="mr-5"></i>
         <i class="mr-5"></i>
-        <div
-          class="col-md-8 col-lg-8 align-items-center d-flex flex-column justify-content-center ml-5"
-        >
-          <h3>Nome, Idade</h3>
-          <p class="text-secondary text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
-            temporibus voluptates aperiam ab ea incidunt cumqu
-          </p>
-        </div>
-        <img
+        <!-- <img
           src="image/photo.PNG"
           class="rounded-circle"
           alt=""
-        />
-      </section>
-      <section class="row photos mr-3 ml-3 mt-3 "></section>
-      <section class="row buttons justify-content-center align-items-center">
-        <i
-          class="box mr-3 rounded-circle d-flex justify-content-center align-items-center"
+        /> -->
+        <div
+        id="my-info"
         >
-          <img src="image/run_man.png" alt="" />
-        </i>
-        <i
-          class="box ml-3 rounded-circle d-flex justify-content-center align-items-center"
-        >
-          <img src="image/heart_icon.png" alt="" class="mt-3" />
-        </i>
+        <h3>Gustavo, 19</h3>
+        <p class="text-secondary">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+          temporibus voluptates aperiam ab ea incidunt cumqu
+        </p>
+      </div>
       </section>
+      <div class="d-flex justify-content-center">
+
+      <section class="row photos mr-3 ml-3"></section>
+    </div>
     </section>
+    <section class="row buttons justify-content-center align-items-center mb-2">
+      <i
+      class="box mr-3 rounded-circle d-flex justify-content-center align-items-center"
+      >
+      <img src="image/run_man.png" alt="" />
+    </i>
+    <i
+    class="box ml-3 rounded-circle d-flex justify-content-center align-items-center"
+    >
+    <img src="image/heart_icon.png" alt="" class="mt-3" />
+  </i>
+</section>
   </main>
     <!-- fim do dashboard  -->
   </body>
