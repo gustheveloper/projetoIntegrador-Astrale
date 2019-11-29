@@ -140,10 +140,10 @@ footer {
   }
 }
 
-@media (min-width: 701px){
-  #headerMenu button{
-  display: none;
-  }
+/* @media (min-width: 701px){
+  #headerMenu{
+  display: flex;
+  } */
 }
 
 /* #teste{
