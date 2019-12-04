@@ -192,13 +192,17 @@ footer {
     height: 40vh;
     width: 90vw;
   }
-  #headerMenu ul{
+  .headerList{
     display: none;
   }
 
-  #headerMenu{
-    display: flex;
-    justify-content: flex-end;
+  .headerMenu{
+    text-decoration: none;
+    color: white!important;
+  }
+
+  .drop{
+    left: 171px;
   }
 
   #my-info{
@@ -218,10 +222,19 @@ footer {
     overflow: auto;
   }
 
+  .login{
+    width: 300px;
+    height: 300px;
+  }
+
+  span{
+    display: none;
+  }
+
 }
 
 @media (min-width: 701px){
-  #headerMenu{
+  .headerMenu{
   display: none;
   }
 }

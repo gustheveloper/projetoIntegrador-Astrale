@@ -4,33 +4,13 @@
 
   /* Início do estilo para header */
 
-  #header {
-    background-color: #574973 !important;
-    height: 10vh;
-  }
-
-  #nomeDoSite {
-    font-size: 1.9rem;
-    font-family: "Poppins", sans-serif;
-  }
-
-  #headerMenu {
-    width: 50%;
-  }
-
-  .nav-link:hover {
-    color: black !important;
-    transition: all 0.1s ease-in-out;
-    background-color: #bac2d9; /* queria uma transição com botão ocupando toda a altura da li */
-  }
-
   #login {
     color: #f27c38;
   }
 
   /* Iniciando estilo para área de Login */
   main {
-    height: 89vh;
+    height: 85vh;
     background-image: url("../image/bannerHome.png");
     background-size: cover;
     background-position: center;
@@ -70,10 +50,28 @@
   form > button {
     background: #f27c38;
     border: none;
-    color: #fff;
+    background-image: linear-gradient(red, yellow);
     font-size: 20pt;
     padding: 6px 30px;
     border-radius: 30px;
+  }
+
+  .facebook{
+    background: #f27c38;
+    border: none;
+    background-color: #3434eb;
+    font-size: 20pt;
+    padding: 6px 30px;
+    border-radius: 15px;
+  }
+
+  .instagram{
+    background: #f27c38;
+    border: none;
+    background-image: linear-gradient(to right,orange, purple);
+    font-size: 20pt;
+    padding: 6px 30px;
+    border-radius: 15px;
   }
 
   .forgot a {
@@ -103,7 +101,5 @@
     text-align: center;
     color: #fff;
   }
-
-
 
   /* fim do estilo para Login e Cadastro de Usuario /*

@@ -93,6 +93,9 @@
 }
 
 #novaConta-form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
         width: 50%;
         height: 100%;
 }

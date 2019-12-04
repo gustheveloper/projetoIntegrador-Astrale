@@ -155,6 +155,5 @@
 </section>
   </main>
     <!-- fim do dashboard  -->
-  </body>
-</html>
+  <?php include_once 'footer.php'?>
 <!-- https://via.placeholder.com/180-->
