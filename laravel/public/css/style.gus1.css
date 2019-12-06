@@ -1,0 +1,246 @@
+/* Início do estilo para header */
+
+#headerNav {
+    background-color: #574973!important;
+}
+
+/* Início do estilo para header */
+
+#header {
+    background-color: #574973!important;
+    height: 10vh !important;
+    font-size: 23px;
+}
+#nomeDoSite{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+headerMenu {
+    width: 50%;
+}
+
+header nav div {
+    width: 50%;
+}
+
+.transicaoNav:hover {
+    color: black!important;
+    transition: all 0.1s ease-in-out;
+    background-color:#BAC2D9; /* queria uma transição com botão ocupando toda a altura da li */
+}
+
+#login {
+    color: #F27C38;
+}
+
+/* Iniciando CSS da área do blog */
+
+
+.blogArea{
+  margin: 0px;
+  height: 15vh;
+  font-family: serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #392e47;
+  font-size: 36px;
+  background-color: gray;
+}
+
+.img-card{
+  display: flex;
+  justify-content: center;
+  width: 25vw;
+  height: 45vh;
+  margin: 10px;
+}
+
+
+/* Iniciando CSS dos cards de posts */
+
+.card{
+  margin: 30px;
+  width: 26.6vw;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+}
+
+.card:hover img{
+  margin: 0px 0px 10px 0px;
+  width: 26.6vw;
+  transition: 0.5s;
+}
+
+
+.posts{
+  display: flex;
+  justify-content: space-around;
+  background-color: #d9d1d0;
+
+}
+
+/* Iniciando CSS pra página dos posts */
+div img{
+  height: 50vh;
+  width: 30vw;
+}
+
+
+.text-post{
+
+  padding: 10px 200px;
+}
+
+#likes{
+  width: 100vw;
+  height: 90vw;
+}
+
+#my-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 4%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+.color-orange {
+  color: #f27c38;
+}
+.photos {
+  height: 50vh;
+  width: 50vw;
+  background: url("../image/fotos.PNG");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.buttons {
+  height: 15vh;
+}
+.box {
+  height: 80px;
+  width: 80px;
+}
+.none {
+  display: none;
+}
+.box:nth-child(1) {
+  background: #ff4949;
+}
+.box:nth-child(2) {
+  background: #13ce66;
+}
+.box:nth-child(3) {
+  background: #ffc82c;
+}
+.box {
+  cursor: pointer;
+}
+.board {
+  overflow-y: scroll;
+  height: 150vh;
+}
+/* conexoes premium */
+.about-dash img {
+  width: 15%;
+}
+
+
+footer {
+    background-color: #574973!important;
+    height: 5vh;
+    color: aliceblue;
+}
+
+@media(max-width: 700px){
+  .posts{
+    display: flex;
+    flex-direction: column;
+  }
+  .card,.card-body{
+    width: 100%;
+  }
+  .card img{
+    width: 94%;
+  }
+  .card:hover img{
+    margin: 0px 0px 10px 0px;
+    width: 94vw;
+    transition: 0.5s;
+  }
+  .text-post{
+    padding: 10px;
+    font-size: 20px;
+  }
+  .text-post h2{
+    font-size: 35px;
+  }
+  div img{
+    height: 40vh;
+    width: 90vw;
+  }
+  .headerList{
+    display: none;
+  }
+
+  .headerMenu{
+    text-decoration: none;
+    color: white!important;
+  }
+
+  .drop{
+    left: 171px;
+  }
+
+  #my-info{
+    margin-top: 10%;
+  }
+
+  #my-info p{
+    display: none;
+  }
+
+  .photos{
+    margin: 2% 0% 2% 0%;
+    height: 70vh;
+  }
+
+  .buttons{
+    overflow: auto;
+  }
+
+  .login{
+    width: 300px;
+    height: 300px;
+  }
+
+  span{
+    display: none;
+  }
+
+}
+
+@media (min-width: 701px){
+  .headerMenu{
+  display: none;
+  }
+}
+
+/* #teste{
+  background-color: black;
+  height: 300px;
+  color: white;
+  background-image: linear-gradient(purple, yellow);
+} */

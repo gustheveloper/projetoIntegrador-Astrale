@@ -1,0 +1,55 @@
+.bg-link {
+    background-color: #988fa8;
+  }
+  
+  .text-my-dark {
+    color: #497361;
+  }
+  .fotos {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  .margin-me {
+    margin-bottom: 12rem;
+  }
+  .truque {
+    margin: o auto;
+  }
+  .btn-premium {
+    width: 160px;
+    padding: 12px 0;
+    background: #eb7c37;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  .about-dash img {
+    width: 15%;
+  }
+  .premium {
+    margin: 2px auto;
+    border-radius: 12px;
+  }
+  h5 {
+    color: #eb7c37;
+  }
+  
+  .btn-astrale {
+    background: #eb7c37;
+  }
+  .perfil-padding {
+    padding: 0 0.8rem;
+  }
+  .fotos {
+    height: 53vh;
+    background: url("../image/fotos-perfil.jpeg");
+    background-position: center;
+    background-size: cover;
+  }
+  

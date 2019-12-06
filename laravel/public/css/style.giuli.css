@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.nav-link:hover {
+    color: black!important;
+    transition: all 0.1s ease-in-out;
+    background-color:#BAC2D9; /* queria uma transição com botão ocupando toda a altura da li */
+}
+
+#login {
+    color: #F27C38;
+}
+/* Fim do estilo para header */
+
+
+/* Início do estilo para menu secundário e cards */
+
+#menuSecundario {
+    background-color: #57497360!important;
+    height: 13vh;
+}
+
+#menuSecundario a:hover{
+    color: black!important;
+    transition: all 0.1s ease-in-out;
+    background-color:rgb(221, 224, 234); /* queria uma transição com botão ocupando toda a altura da li */
+}
+
+#mensagens {
+    color: #F27C38;
+    background-color:rgb(221, 224, 234)
+}
+
+.cardsConexoes {
+    height: 77vh;
+    overflow: auto;
+
+}
+
+/* Fim do estilo para menu secundário e cards */
+
+
+/* Início do estilo para chat */
+
+.chatConversa {
+    height: 70vh;
+    overflow: auto;
+}
+
+.chatEscreve {
+    height: 20vh;
+}
+
+/* Fim do estilo para chat */
